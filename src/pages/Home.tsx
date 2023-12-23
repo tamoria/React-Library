@@ -5,8 +5,8 @@ function Home() {
     <div
       style={{
         backgroundImage: `url(${Background})`,
-        backgroundSize: 'contain', // Adjust this property based on your needs
-        backgroundPosition: 'center', // Center the background image
+        backgroundSize: 'contain', 
+        backgroundPosition: 'center', 
       }}
       className='flex flex-row justify-center mx-auto h-screen'
     >

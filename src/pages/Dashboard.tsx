@@ -11,10 +11,10 @@ function Dashboard() {
         minHeight: '100vh', 
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center',
+        justifyContent: 'flex-start', 
       }}
     >
-      <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', padding: '20px', borderRadius: '10px' }}>
+      <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.9)', padding: '20px', borderRadius: '10px', marginTop: '20px' }}>
         <BookList />
       </div>
     </div>
@@ -22,4 +22,5 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
 
